@@ -1,0 +1,14 @@
+.headerContainer{
+    background-color: rgb(79, 188, 221);
+    height: 80px;
+    padding: 20px;
+}
+
+.headerContainer > h1{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: underline;
+}

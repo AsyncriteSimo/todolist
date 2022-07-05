@@ -1,0 +1,41 @@
+.todoList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35vw;   
+    background-color: #fff;
+    height: 45px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+}
+
+.icons{
+    display: flex;
+}
+
+.icon{
+    margin-right: 10px;
+    cursor: pointer;
+    background-color:rgb(245, 224, 224);
+    border-radius: 3px;
+    color: rgb(221, 71, 71);
+}
+
+.icon1{
+    margin-right: 10px;
+    cursor: pointer;
+    background-color:rgb(168, 240, 204);
+    border-radius: 3px;
+    color: green;
+}
+
+.title{
+    margin-left: 10px;
+    color:rgb(40, 86, 100);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
